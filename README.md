@@ -62,7 +62,7 @@ Feel free to explore my projects and follow my technical growth as a backend dev
 
 <h2 align="left">📊 GitHub Stats</h2>
 
-<div align="left">
+<!-- <div align="left">
 <img
   src="https://github-readme-stats-sigma-five.vercel.app/api?username=ErickMurakami&show_icons=true&theme=dark&count_private=true&include_all_commits=true"
   height="150"
@@ -73,7 +73,7 @@ Feel free to explore my projects and follow my technical growth as a backend dev
   height="150"
   alt="Top Languages."
 />
-</div>
+</div> -->
 
 <br>
 
