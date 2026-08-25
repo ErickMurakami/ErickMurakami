@@ -21,7 +21,7 @@ I'm particularly interested in <strong>distributed systems</strong>, <strong>sys
 <h2 align="left">🛠 Tech Stack</h2>
 
 <p align="left">
-  <strong>Backend:</strong> Java 17/21, Spring Boot, Quarkus, REST APIs <br>
+  <strong>Backend:</strong> Java 17/21/25, Spring Boot, Quarkus, REST APIs <br>
   <strong>Databases:</strong> PostgreSQL, MySQL, SQL Server, MongoDB <br>
   <strong>Architecture:</strong> Clean Architecture, Domain-Driven Design, Multi-tenancy <br>
   <strong>AI & Data:</strong> Python, FastAPI, Spring AI, LangChain4j, LLM integrations <br>
