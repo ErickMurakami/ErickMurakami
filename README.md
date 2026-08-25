@@ -45,7 +45,7 @@ I'm particularly interested in <strong>distributed systems</strong>, <strong>sys
 <p>
 Personal finance backend designed around accounts, transactions, payments, recurring operations, and household financial management.
 <br>
-<strong>Java • Quarkus • PostgreSQL • REST APIs • Clean Architecture</strong>
+<strong>Java • Quarkus • PostgreSQL • REST APIs • Clean Architecture • Langchain4j</strong>
 </p>
 
 <h3>AI Agent Gateway</h3>
@@ -56,7 +56,7 @@ Backend gateway for AI agents, exploring LLM orchestration, structured outputs, 
 <strong>Python • FastAPI • LangGraph • LLMs • MCP</strong>
 </p>
 
-<h3>CreditLens</h3>
+<!-- <h3>CreditLens</h3>
 
 <p>
 AI-assisted credit analysis project exploring document processing, vector search, and LLM-generated financial assessments.
@@ -70,7 +70,7 @@ AI-assisted credit analysis project exploring document processing, vector search
 Formula 1 data analysis project built to explore telemetry, race data, and performance insights.
 <br>
 <strong>Python • FastF1 • Data Analysis</strong>
-</p>
+</p> -->
 
 ---
 
