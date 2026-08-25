@@ -1,30 +1,31 @@
 <h1 align="left">Erick Murakami</h1>
 
-<h3 align="left">Java Backend Developer | Spring Boot | REST APIs | Clean Architecture</h3>
+<h3 align="left">Mid-Level Backend Engineer | Java • Spring Boot • Quarkus | Distributed Systems • AI Systems</h3>
 
 ---
 
 <h2 align="left">About Me</h2>
 
 <p align="left">
-Backend developer focused on designing and building reliable, maintainable, and scalable applications.
+I'm a Backend Engineer specialized in <strong>Java</strong>, focused on building reliable backend systems and REST APIs with an emphasis on architecture, performance, and maintainability.
 <br><br>
-I work mainly with <strong>Java 17/21</strong>, <strong>Spring Boot</strong>, <strong>REST APIs</strong>, and relational databases, applying clean code principles and architecture patterns to solve real business problems.
+In my professional work, I develop enterprise applications using <strong>Java</strong>, <strong>Spring Boot</strong>, relational databases, API integrations, and multi-tenant systems.
 <br><br>
-I also explore <strong>Quarkus</strong>, <strong>Domain-Driven Design</strong>, <strong>Clean Architecture</strong>, and performance optimization to improve the quality, structure, and scalability of backend systems.
+My primary backend ecosystem is the JVM, particularly <strong>Spring Boot</strong> and <strong>Quarkus</strong>. I also work with <strong>Python</strong> when it is the right tool for AI, automation, and data-oriented applications.
 <br><br>
-My current focus is backend engineering, system design fundamentals, API design, and continuous technical growth.
+I'm particularly interested in <strong>distributed systems</strong>, <strong>system design</strong>, <strong>API design</strong>, and the architectural trade-offs behind building software that remains simple, reliable, and maintainable as it evolves.
 </p>
+
 ---
 
 <h2 align="left">🛠 Tech Stack</h2>
 
 <p align="left">
-  <strong>Backend:</strong> Java, Spring Boot, Quarkus, REST APIs <br>
-  <strong>Other Languages:</strong> C#/.NET, Python <br>
-  <strong>Databases:</strong> PostgreSQL, SQL Server, MongoDB <br>
-  <strong>Architecture:</strong> Clean Architecture, Domain-Driven Design <br>
-  <strong>Tools:</strong> Docker, Git, GitHub, Jira <br>
+  <strong>Backend:</strong> Java 17/21, Spring Boot, Quarkus, REST APIs <br>
+  <strong>Databases:</strong> PostgreSQL, MySQL, SQL Server, MongoDB <br>
+  <strong>Architecture:</strong> Clean Architecture, Domain-Driven Design, Multi-tenancy <br>
+  <strong>AI & Data:</strong> Python, FastAPI, Spring AI, LangChain4j, LLM integrations <br>
+  <strong>Infrastructure & Tools:</strong> Docker, Podman, Git, GitHub, Jira <br>
 </p>
 
 ---
@@ -32,9 +33,43 @@ My current focus is backend engineering, system design fundamentals, API design,
 <h2 align="left">💻 Technologies</h2>
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=java,spring,python,fastapi,arch,postgres,mongodb,docker,git,github&theme=dark" alt="Tech Stack" />
-  <br>
-  <img src="https://skillicons.dev/icons?i=mysql&theme=dark" alt="Database Icons" />
+  <img src="https://skillicons.dev/icons?i=java,spring,python,fastapi,postgres,mysql,mongodb,docker,git,github&theme=dark" alt="Tech Stack" />
+</p>
+
+---
+
+<h2 align="left">🚀 Featured Projects</h2>
+
+<h3>Econolyze</h3>
+
+<p>
+Personal finance backend designed around accounts, transactions, payments, recurring operations, and household financial management.
+<br>
+<strong>Java • Quarkus • PostgreSQL • REST APIs • Clean Architecture</strong>
+</p>
+
+<h3>AI Agent Gateway</h3>
+
+<p>
+Backend gateway for AI agents, exploring LLM orchestration, structured outputs, contextual information, and agentic architectures.
+<br>
+<strong>Python • FastAPI • LangGraph • LLMs • MCP</strong>
+</p>
+
+<h3>CreditLens</h3>
+
+<p>
+AI-assisted credit analysis project exploring document processing, vector search, and LLM-generated financial assessments.
+<br>
+<strong>Java • Spring Boot • Spring AI • PostgreSQL • pgvector</strong>
+</p>
+
+<h3>F1 Data Analysis</h3>
+
+<p>
+Formula 1 data analysis project built to explore telemetry, race data, and performance insights.
+<br>
+<strong>Python • FastF1 • Data Analysis</strong>
 </p>
 
 ---
@@ -45,38 +80,33 @@ My current focus is backend engineering, system design fundamentals, API design,
   <strong>Higher Education Diploma in Business Informatics</strong> — Fatec Rio Preto<br>
   <em>Ongoing</em>
   <br><br>
-  <strong>Technical Degree in IT</strong> — Etec Philadelpho Gouvêa Netto
+  <strong>Technical Degree in Information Technology</strong> — Etec Philadelpho Gouvêa Netto
 </p>
 
 ---
 
-<h2 align="left">📌 About my repositories</h2>
+<h2 align="left">📌 About My Repositories</h2>
 
 <p align="left">
-My repositories are focused on backend development, API design, database modeling, architectural experiments, and practical software engineering studies.
+My repositories are primarily focused on backend engineering, API design, system architecture, distributed systems, databases, and AI integrations.
 <br><br>
-Feel free to explore my projects and follow my technical growth as a backend developer.
+I use personal projects not only to experiment with technologies, but also to explore architectural decisions, trade-offs, and software engineering concepts beyond my professional work.
 </p>
 
 ---
 
-<h2 align="left">📊 GitHub Stats</h2>
+<!-- <h2 align="left">📊 GitHub Activity</h2>
 
-<!-- <div align="left">
-<img
-  src="https://github-readme-stats-sigma-five.vercel.app/api?username=ErickMurakami&show_icons=true&theme=dark&count_private=true&include_all_commits=true"
-  height="150"
-  alt="GitHub Stats."
-/>
-<img
-  src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ErickMurakami&layout=compact&theme=dark"
-  height="150"
-  alt="Top Languages."
-/>
-</div> -->
+<p align="left">
+  <img
+    src="profile-summary-card-output/github_dark/0-profile-details.svg"
+    alt="GitHub Profile Details"
+  />
+</p>
 
-<br>
-
-<div align="left">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ErickMurakami&radius=16&theme=github-dark&area=true&order=5" height="300" alt="GitHub activity graph" />
-</div>
+<p align="left">
+  <img
+    src="profile-summary-card-output/github_dark/3-stats.svg"
+    alt="GitHub Stats"
+  />
+</p> -->
