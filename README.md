@@ -95,18 +95,13 @@ I use personal projects not only to experiment with technologies, but also to ex
 
 ---
 
-<!-- <h2 align="left">📊 GitHub Activity</h2>
+<h2 align="left">📊 GitHub Activity</h2>
 
-<p align="left">
-  <img
-    src="profile-summary-card-output/github_dark/0-profile-details.svg"
-    alt="GitHub Profile Details"
-  />
-</p>
-
-<p align="left">
-  <img
-    src="profile-summary-card-output/github_dark/3-stats.svg"
-    alt="GitHub Stats"
-  />
-</p> -->
+<div align="center">
+  <a href="https://github.com/ErickMurakami">
+    <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=ErickMurakami&theme=dark&background=0B1220&border=2563EB&stroke=2563EB&ring=F97316&fire=F97316&currStreakNum=F97316&sideNums=60A5FA&currStreakLabel=60A5FA&sideLabels=60A5FA&dates=E5E7EB" alt="GitHub streak"/>
+  </a>
+  <a href="https://github.com/ErickMurakami">
+    <img width="49%" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=ErickMurakami&langs_count=8&layout=compact&theme=dark&border_color=2563EB&bg_color=0B1220&title_color=F97316&text_color=E5E7EB&icon_color=38BDF8" alt="Top languages"/>
+  </a>
+</div>
