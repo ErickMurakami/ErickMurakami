@@ -1,6 +1,10 @@
-<h1 align="left">Erick Murakami</h1>
-
-<h3 align="left">Mid-Level Backend Engineer | Java • Spring Boot • Quarkus | Distributed Systems • AI Systems</h3>
+<h1 align="left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg" />
+    <img src="assets/header-light.svg" width="100%" alt="Erick Murakami — Mid-Level Backend Engineer | Java • Spring Boot • Quarkus | Distributed Systems • AI Systems" />
+  </picture>
+</h1>
 
 ---
 
@@ -99,16 +103,14 @@ I use personal projects not only to experiment with technologies, but also to ex
 
 <!-- Cards are refreshed daily by .github/workflows/profile-assets.yml. -->
 <p align="center">
-  <a href="https://github.com/ErickMurakami?tab=overview">
-    <img width="495" src="assets/streak.svg" alt="GitHub contribution streak" />
-  </a>
-  <a href="https://github.com/ErickMurakami?tab=repositories">
-    <img width="495" src="assets/top-languages.svg" alt="Most used languages across accessible repositories" />
-  </a>
+  <a href="https://github.com/ErickMurakami?tab=overview"><img width="48%" src="assets/streak.svg" alt="GitHub contribution streak" /></a>
+  <a href="https://github.com/ErickMurakami?tab=repositories"><img width="48%" src="assets/top-languages.svg" alt="Most used languages across accessible repositories" /></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/ErickMurakami?tab=overview">Contribution activity</a> ·
   <a href="https://github.com/ErickMurakami?tab=repositories">Public repositories</a> ·
+  <a href="#-featured-projects">Featured projects</a> ·
+  <a href="#-github-activity">GitHub activity</a> ·
   <a href="https://erickmurakami.github.io/">Portfolio</a>
 </p>
