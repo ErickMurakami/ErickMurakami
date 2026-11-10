@@ -33,7 +33,7 @@ I'm particularly interested in <strong>distributed systems</strong>, <strong>sys
 <h2 align="left">💻 Technologies</h2>
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=java,spring,python,fastapi,postgres,mysql,mongodb,docker,git,github&theme=dark" alt="Tech Stack" />
+  <img src="assets/technologies.svg" width="360" alt="Java, Spring, Quarkus, Python, FastAPI, PostgreSQL, MySQL, MongoDB, Docker, Git and GitHub" />
 </p>
 
 ---
@@ -48,12 +48,12 @@ Personal finance backend designed around accounts, transactions, payments, recur
 <strong>Java • Quarkus • PostgreSQL • REST APIs • Clean Architecture • Langchain4j</strong>
 </p>
 
-<h3>AI Agent Gateway</h3>
+<h3><a href="https://github.com/ErickMurakami/quarkus-rate-limiter">Quarkus Rate Limiter</a></h3>
 
 <p>
-Backend gateway for AI agents, exploring LLM orchestration, structured outputs, contextual information, and agentic architectures.
+API rate limiter exploring fixed and sliding windows, atomic Redis operations with Lua, and the trade-offs between precision and simplicity, with integration tests covering request limits and independent client counters.
 <br>
-<strong>Python • FastAPI • LangGraph • LLMs • MCP</strong>
+<strong>Java • Quarkus • Redis • Lua • OpenTelemetry • Integration Testing</strong>
 </p>
 
 <!-- <h3>CreditLens</h3>
@@ -97,11 +97,18 @@ I use personal projects not only to experiment with technologies, but also to ex
 
 <h2 align="left">📊 GitHub Activity</h2>
 
-<div align="center">
-  <a href="https://github.com/ErickMurakami">
-    <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=ErickMurakami&theme=dark&background=0B1220&border=2563EB&stroke=2563EB&ring=F97316&fire=F97316&currStreakNum=F97316&sideNums=60A5FA&currStreakLabel=60A5FA&sideLabels=60A5FA&dates=E5E7EB" alt="GitHub streak"/>
+<!-- Cards are refreshed daily by .github/workflows/profile-assets.yml. -->
+<p align="center">
+  <a href="https://github.com/ErickMurakami?tab=overview">
+    <img width="495" src="assets/streak.svg" alt="GitHub contribution streak" />
   </a>
-  <a href="https://github.com/ErickMurakami">
-    <img width="49%" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=ErickMurakami&langs_count=8&layout=compact&theme=dark&border_color=2563EB&bg_color=0B1220&title_color=F97316&text_color=E5E7EB&icon_color=38BDF8" alt="Top languages"/>
+  <a href="https://github.com/ErickMurakami?tab=repositories">
+    <img width="495" src="assets/top-languages.svg" alt="Most used languages across accessible repositories" />
   </a>
-</div>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ErickMurakami?tab=overview">Contribution activity</a> ·
+  <a href="https://github.com/ErickMurakami?tab=repositories">Public repositories</a> ·
+  <a href="https://erickmurakami.github.io/">Portfolio</a>
+</p>
