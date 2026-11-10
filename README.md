@@ -22,7 +22,7 @@ I'm particularly interested in <strong>distributed systems</strong>, <strong>sys
 
 ---
 
-<h2 align="left">🛠 Tech Stack</h2>
+<h2 align="left">Tech Stack</h2>
 
 <p align="left">
   <strong>Backend:</strong> Java 17/21/25, Spring Boot, Quarkus, REST APIs <br>
@@ -34,7 +34,7 @@ I'm particularly interested in <strong>distributed systems</strong>, <strong>sys
 
 ---
 
-<h2 align="left">💻 Technologies</h2>
+<h2 align="left">Technologies</h2>
 
 <p align="left">
   <img src="assets/technologies.svg" width="360" alt="Java, Spring, Quarkus, Python, FastAPI, PostgreSQL, MySQL, MongoDB, Docker, Git and GitHub" />
@@ -42,7 +42,7 @@ I'm particularly interested in <strong>distributed systems</strong>, <strong>sys
 
 ---
 
-<h2 align="left">🚀 Featured Projects</h2>
+<h2 align="left">Featured Projects</h2>
 
 <h3>Econolyze</h3>
 
@@ -78,7 +78,7 @@ Formula 1 data analysis project built to explore telemetry, race data, and perfo
 
 ---
 
-<h2 align="left">🎓 Education</h2>
+<h2 align="left">Education</h2>
 
 <p align="left">
   <strong>Higher Education Diploma in Business Informatics</strong> — Fatec Rio Preto<br>
@@ -89,7 +89,7 @@ Formula 1 data analysis project built to explore telemetry, race data, and perfo
 
 ---
 
-<h2 align="left">📌 About My Repositories</h2>
+<h2 align="left">About My Repositories</h2>
 
 <p align="left">
 My repositories are primarily focused on backend engineering, API design, system architecture, distributed systems, databases, and AI integrations.
@@ -99,18 +99,18 @@ I use personal projects not only to experiment with technologies, but also to ex
 
 ---
 
-<h2 align="left">📊 GitHub Activity</h2>
+<h2 align="left">GitHub Activity</h2>
 
 <!-- Cards are refreshed daily by .github/workflows/profile-assets.yml. -->
 <p align="center">
-  <a href="https://github.com/ErickMurakami?tab=overview"><img width="48%" src="assets/streak.svg" alt="GitHub contribution streak" /></a>
-  <a href="https://github.com/ErickMurakami?tab=repositories"><img width="48%" src="assets/top-languages.svg" alt="Most used languages across accessible repositories" /></a>
+  <a href="https://github.com/ErickMurakami?tab=overview"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/streak.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/streak-light.svg" /><img width="48%" src="assets/streak-light.svg" alt="GitHub contribution streak" /></picture></a>
+  <a href="https://github.com/ErickMurakami?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/top-languages.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/top-languages-light.svg" /><img width="48%" src="assets/top-languages-light.svg" alt="Most used languages across accessible repositories" /></picture></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/ErickMurakami?tab=overview">Contribution activity</a> ·
   <a href="https://github.com/ErickMurakami?tab=repositories">Public repositories</a> ·
-  <a href="#-featured-projects">Featured projects</a> ·
-  <a href="#-github-activity">GitHub activity</a> ·
+  <a href="#featured-projects">Featured projects</a> ·
+  <a href="#github-activity">GitHub activity</a> ·
   <a href="https://erickmurakami.github.io/">Portfolio</a>
 </p>

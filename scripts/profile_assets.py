@@ -42,6 +42,40 @@ def normalize_languages(content):
     )
 
 
+def theme_card(content, *, light=False):
+    """Use a transparent canvas and neutral grays without changing the data."""
+    text, secondary, border = (
+        ('#292e35', '#59636f', '#cbd0d6') if light
+        else ('#e5e7eb', '#b8bec6', '#41454b')
+    )
+    colors = {'#e5e7eb': text, '#c4c7cc': secondary, '#41454b': border}
+    # Keep chart segments and their legend markers paired in distinct grays.
+    languages = list(dict.fromkeys(re.findall(
+        r'<circle\b[^>]*fill="(#[0-9a-fA-F]{6})"', content,
+    )))
+    shades = (
+        ['#303943', '#46515e', '#596775', '#6d7e8e', '#7f8f9f', '#919eab', '#a3adb7', '#b5bcc4']
+        if light else
+        ['#cdd2d8', '#b7bec6', '#a1aab5', '#8c98a5', '#788695', '#647484', '#526273', '#425364']
+    )
+    colors.update({color.lower(): shades[i % len(shades)] for i, color in enumerate(languages)})
+    content = re.sub(
+        r'#[0-9a-fA-F]{6}\b',
+        lambda match: colors.get(match[0].lower(), match[0]), content,
+    )
+    def transparent_background(match):
+        return re.sub(r"fill=([\"'])[^\"']*\1", 'fill="none"', match[0])
+    content = re.sub(
+        r'<rect\b[^>]*data-testid="card-bg"[^>]*/>',
+        transparent_background, content,
+    )
+    content = re.sub(
+        r"<rect\b[^>]*width='494'[^>]*/>",
+        transparent_background, content,
+    )
+    return content
+
+
 if __name__ == '__main__':
     # Keep the original renderer: the alternative public host returned HTTP 403
     # during the audit. A failed refresh never replaces the committed snapshot.
@@ -65,8 +99,13 @@ if __name__ == '__main__':
     )
     languages = Path('assets/top-languages.svg')
     language_content = normalize_languages(languages.read_text())
-    for path in Path('assets').glob('*.svg'):
-        validate(path, language_content if path == languages else path.read_text())
-    validate('streak', content)
-    languages.write_text(language_content)
-    Path('assets/streak.svg').write_text(content)
+    outputs = {
+        Path('assets/streak.svg'): theme_card(content),
+        Path('assets/streak-light.svg'): theme_card(content, light=True),
+        languages: theme_card(language_content),
+        Path('assets/top-languages-light.svg'): theme_card(language_content, light=True),
+    }
+    for path, svg in outputs.items():
+        validate(path, svg)
+    for path, svg in outputs.items():
+        path.write_text(svg)
