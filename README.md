@@ -6,31 +6,27 @@
   </picture>
 </h1>
 
----
-
 <h2 align="left">About Me</h2>
 
 <p align="left">
-I'm a Backend Engineer specialized in <strong>Java</strong>, focused on building reliable backend systems and REST APIs with an emphasis on architecture, performance, and maintainability.
+I'm a Backend Engineer specialising in <strong>Java</strong>. I build backend systems and REST APIs with a focus on clear architecture, performance, and maintainability.
 <br><br>
-In my professional work, I develop enterprise applications using <strong>Java</strong>, <strong>Spring Boot</strong>, relational databases, API integrations, and multi-tenant systems.
+In my professional work, I develop enterprise applications with <strong>Spring Boot</strong>, relational databases, API integrations, and multi-tenant systems. My main ecosystem is the JVM, particularly <strong>Spring Boot</strong> and <strong>Quarkus</strong>; I also use <strong>Python</strong> for AI, automation, and data-oriented applications.
 <br><br>
-My primary backend ecosystem is the JVM, particularly <strong>Spring Boot</strong> and <strong>Quarkus</strong>. I also work with <strong>Python</strong> when it is the right tool for AI, automation, and data-oriented applications.
-<br><br>
-I'm particularly interested in <strong>distributed systems</strong>, <strong>system design</strong>, <strong>API design</strong>, and the architectural trade-offs behind building software that remains simple, reliable, and maintainable as it evolves.
+I'm particularly interested in <strong>distributed systems</strong>, <strong>system design</strong>, and <strong>API design</strong>—especially the trade-offs that help software stay simple and reliable as it evolves.
 </p>
 
 ---
 
 <h2 align="left">Tech Stack</h2>
 
-<p align="left">
-  <strong>Backend:</strong> Java 17/21/25, Spring Boot, Quarkus, REST APIs <br>
-  <strong>Databases:</strong> PostgreSQL, MySQL, SQL Server, MongoDB <br>
-  <strong>Architecture:</strong> Clean Architecture, Domain-Driven Design, Multi-tenancy <br>
-  <strong>AI & Data:</strong> Python, FastAPI, Spring AI, LangChain4j, LLM integrations <br>
-  <strong>Infrastructure & Tools:</strong> Docker, Podman, Git, GitHub, Jira <br>
-</p>
+| Area | Technologies & practices |
+| --- | --- |
+| **Backend** | Java 17 / 21 / 25, Spring Boot, Quarkus, REST APIs |
+| **Databases** | PostgreSQL, MySQL, SQL Server, MongoDB |
+| **Architecture** | Clean Architecture, Domain-Driven Design, multi-tenancy |
+| **AI & Data** | Python, FastAPI, Spring AI, LangChain4j, LLM integrations |
+| **Infrastructure & Tools** | Docker, Podman, Git, GitHub, Jira |
 
 ---
 
@@ -44,20 +40,32 @@ I'm particularly interested in <strong>distributed systems</strong>, <strong>sys
 
 <h2 align="left">Featured Projects</h2>
 
-<h3>Econolyze</h3>
+<h3><a href="https://github.com/ErickMurakami/Econolyze">Econolyze</a></h3>
 
 <p>
-Personal finance backend designed around accounts, transactions, payments, recurring operations, and household financial management.
-<br>
-<strong>Java • Quarkus • PostgreSQL • REST APIs • Clean Architecture • Langchain4j</strong>
+Personal finance platform covering accounts, transactions, payments, recurring expenses, and financial goals, with Quarkus services for authentication, finance, an API gateway, and an AI assistant.
+</p>
+
+<p>
+<strong>Engineering focus:</strong> Financial domain modelling, service boundaries, and AI integration within a backend application.
+</p>
+
+<p>
+<sub>Java · Quarkus · PostgreSQL · REST APIs · Clean Architecture · LangChain4j</sub>
 </p>
 
 <h3><a href="https://github.com/ErickMurakami/quarkus-rate-limiter">Quarkus Rate Limiter</a></h3>
 
 <p>
-API rate limiter exploring fixed and sliding windows, atomic Redis operations with Lua, and the trade-offs between precision and simplicity, with integration tests covering request limits and independent client counters.
-<br>
-<strong>Java • Quarkus • Redis • Lua • OpenTelemetry • Integration Testing</strong>
+API rate limiter implementing fixed and sliding windows with Redis and atomic Lua scripts. Integration tests cover request limits and independent client counters.
+</p>
+
+<p>
+<strong>Engineering focus:</strong> Atomic operations under concurrent requests and the trade-off between window precision and storage cost, with OpenTelemetry spans for each check.
+</p>
+
+<p>
+<sub>Java · Quarkus · Redis · Lua · OpenTelemetry · Integration Testing</sub>
 </p>
 
 <!-- <h3>CreditLens</h3>
@@ -92,9 +100,9 @@ Formula 1 data analysis project built to explore telemetry, race data, and perfo
 <h2 align="left">About My Repositories</h2>
 
 <p align="left">
-My repositories are primarily focused on backend engineering, API design, system architecture, distributed systems, databases, and AI integrations.
+My repositories combine backend applications with focused studies in API design, databases, distributed systems, and AI integrations.
 <br><br>
-I use personal projects not only to experiment with technologies, but also to explore architectural decisions, trade-offs, and software engineering concepts beyond my professional work.
+I use personal projects to explore architectural decisions and their trade-offs: how data is modelled, where responsibilities belong, and how systems behave beyond the happy path.
 </p>
 
 ---
@@ -111,6 +119,6 @@ I use personal projects not only to experiment with technologies, but also to ex
   <a href="https://github.com/ErickMurakami?tab=overview">Contribution activity</a> ·
   <a href="https://github.com/ErickMurakami?tab=repositories">Public repositories</a> ·
   <a href="#featured-projects">Featured projects</a> ·
-  <a href="#github-activity">GitHub activity</a> ·
+  <a href="https://www.linkedin.com/in/erick-murakami"><img src="assets/linkedin.svg" width="16" height="16" alt="" /> LinkedIn</a> ·
   <a href="https://erickmurakami.github.io/">Portfolio</a>
 </p>

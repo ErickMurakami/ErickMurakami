@@ -43,22 +43,12 @@ def normalize_languages(content):
 
 
 def theme_card(content, *, light=False):
-    """Use a transparent canvas and neutral grays without changing the data."""
+    """Use neutral framing while preserving the languages' identifying colors."""
     text, secondary, border = (
         ('#292e35', '#59636f', '#cbd0d6') if light
         else ('#e5e7eb', '#b8bec6', '#41454b')
     )
     colors = {'#e5e7eb': text, '#c4c7cc': secondary, '#41454b': border}
-    # Keep chart segments and their legend markers paired in distinct grays.
-    languages = list(dict.fromkeys(re.findall(
-        r'<circle\b[^>]*fill="(#[0-9a-fA-F]{6})"', content,
-    )))
-    shades = (
-        ['#303943', '#46515e', '#596775', '#6d7e8e', '#7f8f9f', '#919eab', '#a3adb7', '#b5bcc4']
-        if light else
-        ['#cdd2d8', '#b7bec6', '#a1aab5', '#8c98a5', '#788695', '#647484', '#526273', '#425364']
-    )
-    colors.update({color.lower(): shades[i % len(shades)] for i, color in enumerate(languages)})
     content = re.sub(
         r'#[0-9a-fA-F]{6}\b',
         lambda match: colors.get(match[0].lower(), match[0]), content,
