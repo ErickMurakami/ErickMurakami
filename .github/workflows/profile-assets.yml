@@ -32,7 +32,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=ErickMurakami&langs_count=8&layout=compact&card_width=495&theme=dark&border_color=454C63&bg_color=14151A&title_color=7897FF&text_color=FFF6E5&icon_color=7897FF&disable_animations=false
+          options: username=ErickMurakami&langs_count=8&layout=compact&card_width=495&theme=dark&border_color=41454B&bg_color=1B1C1E&title_color=C4C7CC&text_color=E5E7EB&icon_color=C4C7CC&disable_animations=false
           path: assets/top-languages.svg
           # Optional PAT for private repositories; otherwise public stats only.
           # Store it in Settings > Secrets and variables > Actions, never here.

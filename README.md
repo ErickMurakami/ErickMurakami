@@ -1,8 +1,8 @@
 <h1 align="left">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg" />
-    <img src="assets/header-light.svg" width="100%" alt="Erick Murakami — Mid-Level Backend Engineer | Java • Spring Boot • Quarkus | Distributed Systems • AI Systems" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.png" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/header-light.png" />
+    <img src="assets/header-light.png" width="100%" alt="Erick Murakami — Mid-Level Backend Engineer | Java • Spring Boot • Quarkus | Distributed Systems • AI Systems" />
   </picture>
 </h1>
 

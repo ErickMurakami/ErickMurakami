@@ -47,9 +47,9 @@ if __name__ == '__main__':
     # during the audit. A failed refresh never replaces the committed snapshot.
     url = (
         'https://github-readme-streak-stats.herokuapp.com/?user=ErickMurakami'
-        '&theme=dark&background=14151A&border=454C63&stroke=454C63'
-        '&ring=7897FF&fire=7897FF&currStreakNum=7897FF&sideNums=7897FF'
-        '&currStreakLabel=7897FF&sideLabels=7897FF&dates=FFF6E5'
+        '&theme=dark&background=1B1C1E&border=41454B&stroke=41454B'
+        '&ring=C4C7CC&fire=C4C7CC&currStreakNum=C4C7CC&sideNums=C4C7CC'
+        '&currStreakLabel=C4C7CC&sideLabels=C4C7CC&dates=E5E7EB'
         '&disable_animations=false'
     )
     with urllib.request.urlopen(url, timeout=45) as response:
