@@ -90,7 +90,6 @@ Formula 1 data analysis project built to explore telemetry, race data, and perfo
 
 <p align="left">
   <strong>Higher Education Diploma in Business Informatics</strong> — Fatec Rio Preto<br>
-  <em>Ongoing</em>
   <br><br>
   <strong>Technical Degree in Information Technology</strong> — Etec Philadelpho Gouvêa Netto
 </p>
